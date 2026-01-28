@@ -73,7 +73,7 @@ The training script will:
 - Save the best model weights (based on dev UAS) to `results/<timestamp>/model.weights`
 - ⭐ **ADDED**: Automatically evaluate on the test set and save results to `results/<timestamp>/test_results.txt`
 
-### Evaluation ⭐ (Custom Addition)
+### Evaluation ⭐ (ADDED)
 
 Evaluate a saved model on the test set without training again:
 
@@ -122,7 +122,7 @@ The model predicts one of three transition types:
 - Automatic model checkpointing
 - ⭐ **ADDED**: Automatic result saving to `test_results.txt` after evaluation
 
-### `evaluate.py` ⭐ (Custom Addition)
+### `evaluate.py` ⭐ (ADDED)
 - Standalone script for evaluating saved models
 - Loads model weights without retraining
 - Saves evaluation results to file
@@ -139,3 +139,4 @@ Results are automatically saved to:
 **Note:** 
 - The automatic result saving feature (⭐) was added by me and is not part of the original assignment.
 - AI help me write this README
+
