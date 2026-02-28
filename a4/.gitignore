@@ -1,0 +1,29 @@
+# Personal notes - do not push
+src/my_notes.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.eggs/
+*.egg-info/
+*.egg
+
+# Model params (large files)
+*.params
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.DS_Store
+*.swp
+*.swo
+
+# TensorBoard / experiments
+expt/
+
+# Downloaded data
+mingpt-demo/input.txt
